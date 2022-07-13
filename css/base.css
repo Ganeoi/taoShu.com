@@ -1,0 +1,70 @@
+﻿/*清除元素默认的内外边距  */
+* {
+    margin: 0;
+    padding: 0;
+    /* CSS3盒子模型 */
+    box-sizing: border-box;
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+}
+/*取消链接的下划线*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+/* 鼠标经过，样式改变 */
+a:hover {
+    color: #0587d3;
+}
+
+button,
+input {
+    /* “\\5B8B\4F53”就是宋体的意思，浏览器的兼容性会更好 */
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    /* 手动去掉 默认的灰色边框 */
+    border: none;
+    /*去掉 点击输入框会出现的蓝色边框*/
+    outline: none;
+}
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smossthing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*清除浮动*/
+.content:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.content {
+    *zoom: 1
+}

@@ -1,0 +1,104 @@
+/*考试教育，家庭教育 列表页的css*/
+.sk {
+	position: absolute;
+	top: 40px;
+	left: 185px;
+	height: 32px;
+	border-left: 1px solid  #0277bb;
+	padding: 5px 0 0 15px;
+}
+.nav .sk_con{
+	margin: 0 auto  ;
+}
+.sk_con li {
+	float: left;
+	line-height: 45px;
+	margin: 0 20px;
+}
+.sk_con li {
+	font-size: 14px;
+	font-weight: 700;
+	font-family: 'icomoon';
+}
+/* 列表页主体模块样式  */
+.sk_bd {
+	margin-top: 25px;
+}
+.sk_bd .content .list {
+	float: left;
+	width: 300px;
+	height: 450px;
+	text-align: center;
+	margin-bottom:40px;
+}
+.sk_bd .content .list .img {
+	height: 330px;
+	/* 利用flexbox布局 使图片居中显示 1、 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.list .img img {
+	width: 260px;
+	height: 330px;
+	/* 居中设置 2、 */
+	display: block;
+	margin: auto;
+}
+.content .list .text .title {
+	font-size: 16px;
+	padding: 2px 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.list .text .price .oldp {
+	font-size: 14px;
+	color: #999;
+	text-decoration: line-through;
+}
+.list .text .price .newp {
+	font-size: 16px;
+	font-weight: 700;
+	color: #ff6666;
+}
+.list .text .number {
+	font-size: 12px;
+}
+.list .text .number span:last-child i {
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff6666;
+}
+.list .text .number span:nth-child(2) {
+	position: relative;
+	display: inline-block;
+	width: 100px;
+	height: 10px;
+	border: 1px solid #fc3535;
+	border-radius: 5px;
+}
+.list .text .number span:nth-child(2) i {
+	position: absolute;
+	top: 0;
+	left: -1px;
+	display: inline-block;
+	width: 80px;
+	height: 9px;
+	background-color: #fc3535;
+	border-radius: 4.5px;
+}
+.list .text .shop a {
+	display: inline-block;
+	font-size: 16px;
+	color: #f6d4dd;
+	width: 299px;
+	height: 40px;
+	line-height: 40px;
+	margin: 5px auto 10px;
+	background-color: #b1181a;
+}
+.list .text .shop a:hover {
+	font-size: 18px;
+	font-weight: 700;
+}

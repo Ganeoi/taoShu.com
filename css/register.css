@@ -1,0 +1,121 @@
+/* 注册页样式 */
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.header {
+	height: 82px;
+	border-bottom: 2px solid #0277bb;
+}
+.registerarea {
+	height: 520px;
+	border: 1px solid #ccc;
+	margin-top: 20px;
+}
+.registerarea h3 {
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	background-color: #ececec;
+	padding: 0  10px;
+	font-weight: 400;
+	line-height: 40px;
+	font-size: 18px;
+}
+.registerarea h3 div {
+	float: left;
+}
+.registerarea a {
+	color: #0277bb;
+}
+.registerarea div a:hover {
+	font-weight: 700;
+	text-decoration: underline;
+}
+.registerarea .login {
+	float: right;
+}
+.reg_form {
+	width: 600px;
+	height: 400px;
+	margin: 40px auto 0;
+}
+.reg_form li {
+	margin-bottom: 15px;
+}
+.reg_form label {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.inp {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #ccc;
+	margin-left: 10px;
+} 
+/* 输入框获得焦点后  样式改变 */
+.inp:focus {
+	border: 2px solid #2188c4;
+}
+.error {
+	color: #df3033;
+	margin-left: 10px;
+}
+.error_icon,
+.success_icon {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(../images/error.png) no-repeat;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+.success {
+	color: #40b83f;
+	margin-left: 10px;
+}
+.success_icon {
+	background-image: url(../images/success.png);
+}
+.safe {
+	padding-left: 187px;
+	color: #b2b2b2;
+}
+.safe em {
+	padding: 0 12px;
+	color: #fff;
+}
+.ruo {
+	background-color: #de1111;
+}
+
+.zhong {
+	background-color: #40b83f;
+}
+
+.qiang {
+	background-color: #f79100;
+}
+.agree {
+	padding-top: 20px;
+	text-align: center;
+}
+.agree input {
+	/* 与文字的对齐位置 */
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.agree a {
+	color: #1ba1e6;
+}
+.reg_form ul li:last-child{
+	text-align: center;
+}
+.reg_form ul .btn {
+	width: 60px;
+	height: 26px;
+	border-radius: 2px;
+	border: 1px solid #1f1e1e;
+}

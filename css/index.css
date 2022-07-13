@@ -1,0 +1,377 @@
+/*这个文件里面放的是 首页的样式*/
+
+.main {
+  width: 980px;
+  height: 455px;
+  margin-left: 220px;
+  margin-top: 10px;
+}
+
+.focus {
+  position: relative;
+  width: 721px;
+  height: 455px;
+  overflow: hidden;
+}
+
+.focus ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 600%;
+}
+
+.focus ul li {
+  float: left;
+}
+.focus ul li img {
+  width: 721px;
+  height: 455px;
+}
+.arrow-l,
+.arrow-r {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  line-height: 40px;
+  color: #ccc;
+  font-size: 18px;
+  z-index: 2;
+}
+.arrow-r {
+  right: 0;
+}
+
+.circle {
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+}
+
+.circle li {
+  float: left;
+  width: 8px;
+  height: 8px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 3px;
+  border-radius: 50%;
+  /*鼠标经过显示小手*/
+  cursor: pointer;
+}
+
+.current {
+  background-color: #fff;
+}
+
+.newsflash {
+  float: right;
+  width: 250px;
+  height: 455px;
+}
+
+.news {
+  height: 163px;
+  border: 1px solid #ccc;
+}
+
+.news-hd {
+  height: 32px;
+  /*dotted 点线  dashed  虚线*/
+  border-bottom: 1px dotted #ccc;
+  padding: 0 18px;
+  line-height: 32px;
+}
+.news-hd h5 {
+  float: left;
+  font-size: 14px;
+}
+.news-hd a {
+  float: right;
+  font-size: 12px;
+}
+.news-hd a::after {
+  content: '\e901';
+  font-family: 'icomoon';
+}
+.news-bd {
+  padding: 10px 0 0 15px;
+}
+.news-bd ul li {
+  height: 23px;
+  line-height: 23px;
+  /* 设置当文字过多，超出盒子时，用省略号显示 三行代码 */
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.lifeservice {
+  overflow: hidden;
+  height: 209px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+.lifeservice ul {
+  width: 252px;
+}
+.lifeservice ul li {
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 70px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  padding-top: 5px;
+}
+
+/* .lifeservice ul li a {
+  display: block; */
+  /* overflow: hidden; 解决i 引起的 外边距塌陷合并的问题*/
+  /* overflow: hidden;
+  height: 100%;
+} */
+
+.lifeservice ul li p {
+  text-align: center;
+}
+
+/*推荐模块*/
+.recommend {
+  height: 145px;
+  margin-top: 10px;
+}
+.recom-hd {
+  width: 200px;
+  height: 145px;
+  background-color: #5c5251;
+  text-align: center;
+}
+.recom-hd img {
+  margin: 30px 0 10px 0;
+}
+
+.recom-hd h3 {
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+}
+
+.recom-bd {
+  width: 1000px;
+  height: 145px;
+  background-color: #ebebeb;
+}
+
+.recom-bd li {
+  float: left;
+  width: 249px;
+  height: 145px;
+  border-right: 1px solid #ccc;
+  padding-top: 10px;
+  text-align: center;
+}
+.recom-bd li div {
+  font-size: 20px;
+}
+.recom-bd .last {
+  border-right: 0;
+}
+.recom-bd img {
+  width: 88px;
+  height: 88px;
+}
+/*floor 楼层区*/
+.floor {
+  margin-bottom: 30px;
+}
+.box-hd {
+  height: 30px;
+  border-bottom: 2px solid #0277bb;
+  margin-top: 25px;
+}
+
+.box-hd h3 {
+  float: left;
+  font-size: 18px;
+  color: #0277bb;
+}
+
+.tab-list {
+  float: right;
+  line-height: 30px;
+}
+
+.tab-list li {
+  float: left;
+  font-size: 14px;
+}
+
+.tab-list li a {
+  margin: 0 15px;
+}
+
+.box-bd {
+  height: 360px;
+  border-bottom: 1px solid #ccc;
+}
+
+.w209 {
+  width: 209px;
+}
+.w209 .tab-con-bd {
+  width: 180px;
+  height: 150px;
+  padding: 10px 14.5px 0;
+}
+.w209 .img img {
+  width: 100%;
+  height: 100%;
+}
+.w380 {
+  width: 390px;
+  border-right: 1px solid #fff;
+}
+.w380 .pic {
+  width: 390px;
+  height: 320px;
+}
+.w380 .pic img {
+  width: 100%;
+  height: 100%;
+}
+.w320 {
+  width: 320px;
+  border-right: 1px solid #fff;
+}
+.w320 .pic {
+  width: 320px;
+  height: 320px;
+}
+.w320 .pic img {
+  width: 100%;
+  height: 100%;
+}
+.w280 {
+  width: 280px;
+}
+.w280 .pic {
+  width: 280px;
+  height: 320px;
+}
+.w280 img {
+  width: 100%;
+  height: 100%;
+}
+/* 八成新样式 */
+.tab-con .h400 {
+  height: 424px;
+}
+.baxin .box-bd{
+  height: 424px;
+}
+.w450 {
+  width: 450px;
+}
+.w450 .pic {
+  width: 450px;
+  height: 178px;
+}
+.w450 .pic img {
+  width: 100%;
+  height: 100%;
+}
+.w500 {
+  width: 540px;
+}
+.w500 .wfloat {
+  float: left;
+  width: 270px;
+  height: 212px;
+  padding: 0 2.5px 2.5px 0px;
+}
+.w500 .wfloat img {
+  width: 100%;
+  height: 100%;
+}
+/* .jiuxin .baxin公共样式 */
+.tab-con li {
+  float: left;
+  height: 360px;
+}
+.tab-con-item {
+  height: 180px; 
+}
+.box-bd .tab-con .text {
+  padding: 5px 0;
+  text-align: center;
+  font-size: 16px;
+}
+.pic {
+  padding-right: 2.5px;
+}
+.box-bd .tab-con .pic:last-child {
+  padding-right: 0;
+}
+
+.tab-con-list {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.tab-con-list li {
+  width: 86px;
+  height: 32px;
+  line-height: 32px;
+  border-bottom: 1px solid #ccc;
+  margin-left: 10px;
+  text-align: center;
+}
+
+.box-bd li {
+  overflow: hidden;
+}
+
+.box-bd img {
+  /*过渡写到本身上， 谁做动画，给谁加*/
+  transition: all 0.2s;
+}
+
+/*我们鼠标经过图片 往右走 8px*/
+.box-bd img:hover {
+  margin-left: 8px;
+}
+
+/*电梯导航*/
+.fixedtool {
+  position: fixed;
+  top: 70px;
+  left: 50%;
+  margin-left: 680px;
+  width: 75px;
+  background-color: #fff;
+}
+
+.fixedtool li {
+  height: 80px;
+  text-align: center;
+  font-size: 12px;
+  border: 1px solid #eee;
+  cursor: pointer;
+}
+.fixedtool li a:hover {
+  color: #fe741c;
+}
+.fixedtool li a img{
+  margin-top: 5px;
+  width: 50px;
+  height: 50px;
+}
+.fixedtool .current {
+  background-color: #0277bb;
+  color: #fff;
+}

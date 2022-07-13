@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <title>【淘书网】-闲置旧书交易平台</title>
+    <!-- 网站说明 -->
+    <meta name="description" content="淘书网：海洋大学校内二手书线上线下交易平台，汇集了包括教科书、辅助书、课外书等多种类别的二手书籍" />
+    <!-- 关键字 -->
+    <meta name="Keywords" content="图书、书籍、旧书、二手书、买购网、二手书交易、线下交易" />
+
+    <!-- 引入facicon.ico网页图标 -->
+    <link rel="shortcut icon" href="favicon1.ico" />
+    <!-- 引入css 初始化的css 文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入公共样式的css 文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入 首页的css文件 -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- 动画效果文件animate.js 必须写到 index.js的上面引入   -->
+    <script src="js/animate.js"></script>
+    <!-- 引入我们首页的js文件 -->
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <!-- 顶部快捷导航模块 start -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>主校区<i class="icomoon"></i> &nbsp;</li>
+                    <li>
+                        <a href="#">请登录</a> &nbsp;
+                        <a href="register.html" class="style_blue">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的淘书网<i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">淘书网会员</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">团体购买</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">关注淘书网 <i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">客户服务 <i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">网站导航 <i class="icomoon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 顶部快捷导航模块 end  -->
+    <!-- header头部模块制作 start-->
+    <header class="header w">
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="淘书网">淘书网</a>
+            </h1>
+        </div>
+        <!-- search搜索模块 start -->
+        <div class="search">
+            <input type="search" name="" id="search" placeholder="请输入搜索内容...">
+            <button>搜索</button>
+        </div>
+        <!-- hotwords模块制作 -->
+        <div class="hotwords">
+            <i class="style_red">热搜：</i>
+            <a href="#">英语</a>
+            <a href="#">计算机</a>
+            <a href="#">教资</a>
+            <a href="#">法律</a>
+            <a href="#">考研</a>
+            <a href="#">CET4/6</a>
+        </div>
+        <!-- 购物车模块 -->
+        <a href="#" class="shopcar">
+            我的购物车
+            <i class="count">99+</i>
+        </a>
+    </header>
+    <!-- header头部模块制作 end -->
+    <!-- nav导航模块制作 start -->
+    <nav class="nav">
+        <div class="w">
+            <!-- dropdown下拉菜单 -->
+            <div class="dropdown fl">
+                <div class="dt"> 全部图书分类 </div>
+                <div class="dd">
+                    <ul>
+                        <li class="menu_item"><a href="list.html">教育考试、家庭教育</a></li>
+                        <li class="menu_item"><a href="#">财经文学、理财投资</a></li>
+                        <li class="menu_item"><a href="#">计算机与网络、编程语言</a></li>
+                        <li class="menu_item"><a href="#">科技工程、食品安全</a></li>
+                        <li class="menu_item"><a href="#">人文历史</a></li>
+                        <li class="menu_item"><a href="#">体育保健、奥林匹克</a></li>
+                        <li class="menu_item"><a href="#">工具书</a></li>
+                        <li class="menu_item"><a href="#">生活时尚、家居艺术</a></li>
+                        <li class="menu_item"><a href="#">名人笔墨</a></li>
+                        <li class="menu_item"><a href="#">法律、法律文学写作</a></li>
+                        <li class="menu_item"><a href="#">管理、企业与企业家</a></li>
+                        <li class="menu_item"><a href="#">成功励志、大学生指南</a></li>
+                        <li class="menu_item"><a href="#">地理文学</a></li>
+                        <li class="menu_item"><a href="#">初高中用书</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 右侧导航 -->
+            <div class="navitems fl">
+                <ul>
+                    <li><a href="#">网站首页</a></li>
+                    <li><a href="#">图书专栏</a></li>
+                    <li><a href="#">旧书回收</a></li>
+                    <li><a href="#">我要买书</a></li>
+                    <li><a href="#">会员中心</a></li>
+                    <li><a href="#">查询物流</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">有趣</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- nav导航模块制作 end  -->
+
+    <!-- 首页专有 main主体模块制作 start -->
+    <div class="w">
+        <div class="main">
+            <!-- focus焦点图模块 -->
+            <div class="focus fl">
+                <!-- 左侧按钮 &lt -->
+                <a href="javascript:;" class="arrow-l">
+                    &lt;
+                 </a>
+                <!-- 右侧按钮 &gt -->
+                <a href="javascript:;" class="arrow-r">
+                    &gt;
+                </a>
+                <!-- 核心的滚动区域 -->
+                <ul>
+                    <li>
+                        <a href="#"><img src="upload/focus1.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus2.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus3.jpg" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="upload/focus4.jpg" alt=""></a>
+                    </li>
+                </ul>
+                <!-- 左下角的小圆圈 -->
+                <ol class="circle">
+                </ol>
+            </div>
+            <!-- 公告与服务模块 -->
+            <div class="newsflash fr">
+                <!-- 公告模块 -->
+                <div class="news">
+                    <div class="news-hd">
+                        <h5>公告动态</h5>
+                        <a href="#">更多</a>
+                    </div>
+                    <div class="news-bd">
+                        <ul>
+                            <li><a href="#">【售后】投诉建议电话开通中(86)75688932！</a></li>
+                            <li><a href="#">【包邮】全网免邮费！！！！！</a></li>
+                            <li><a href="#">【长期】长期回收大学各科教科书，辅导书。</a></li>
+                            <li><a href="#">【代理】校园代理火热招聘中。</a></li>
+                            <li><a href="#">【团购】团购享受最优惠价格！</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 服务模块 -->
+                <div class="lifeservice">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img1.png" alt="">
+                                <p>费用试算</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img2.png" alt="">
+                                <p>帮助中心</p>
+                            </a>
+                            <span class="hot"></span>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img3.png" alt="">
+                                <p>翻译工具</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img4.png" alt="">
+                                <p>购书流程</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img5.png" alt="">
+                                <p>我们的优势</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img6.png" alt="">
+                                <p>新手指南</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img7.png" alt="">
+                                <p>费用说明</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./images/img8.png" alt="">
+                                <p>会员必读</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 首页专有 main主体模块制作 end -->
+
+    <!-- 推荐服务模块 start -->
+    <div class="recommend w">
+        <div class="recom-hd fl">
+            <img src="images/clock.png" alt="">
+            <h3>今日推荐</h3>
+        </div>
+        <div class="recom-bd fl">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/inner1.jpg" alt="">
+                        <div>线装古籍</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/inner2.jpg" alt="">
+                        <div>民国旧书</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/inner3.jpg" alt="">
+                        <div>名人墨迹</div>
+                    </a>
+                </li>
+                <li class="last">
+                    <a href="#">
+                        <img src="images/inner4.jpg" alt="">
+                        <div>古玩杂项</div>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 推荐服务模块 end -->
+
+    <!-- 楼层区 start -->
+    <div class="floor">
+        <div class="jiadian w">
+            <div class="box-hd">
+                <h3>九成及以上新旧书</h3>
+                <div class="tab-list">
+                    <ul>
+                        <li class="style_red">热门：</li>
+                        <li><a href="#">电路</a>|</li>
+                        <li><a href="#">近代史</a>|</li>
+                        <li><a href="#">线性代数</a>|</li>
+                        <li><a href="#">概率论</a>|</li>
+                        <li><a href="#">计算机考试</a>|</li>
+                        <li><a href="#">模电</a>|</li>
+                        <li><a href="#">三体</a>|</li>
+                        <li><a href="#">工程制图</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <ul class="tab-con">
+                    <li class="w209">
+                        <ul class="tab-con-list">
+                            <li>
+                                <a href="#">九成新</a>
+                            </li>
+                            <li>
+                                <a href="#">正版图书</a>
+                            </li>
+                            <li>
+                                <a href="#">封面整洁</a>
+                            </li>
+                            <li>
+                                <a href="#">页码完整</a>
+                            </li>
+                            <li>
+                                <a href="#">少笔记</a>
+                            </li>
+                            <li>
+                                <a href="#">无破损</a>
+                            </li>
+                        </ul>
+                        <div div class="tab-con-bd">
+                            <a href="#">
+                                <div class="img"><img src="upload/old1.jpg" alt=""></div>
+                                <div class="text">
+                                    电路 邱关源 第五版
+                                    <p>高等教育出版社 送电子答案</p>
+                                </div>                      
+                            </a>
+                        </div>
+                    </li>
+                    <li class="w380">
+                        <a href="#">
+                            <div class="pic"><img src="upload/old-1-1.jpg" alt=""></div>
+                            <div class="text">新编剑桥商务英语 第三版</div>
+                        </a>
+                    </li>
+                    <li class="w320">
+                        <div class="tab-con-item">
+                            <a href="#">
+                                <div class="pic"><img src="upload/old-1-2.jpg" alt=""></div>
+                                <div class="text">二级MS Office 高级应用</div>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="w280">
+                        <div class="tab-con-item">
+                            <a href="#">
+                                <div class="pic"><img src="upload/old-1-3.jpg" alt=""></div>
+                                <div class="text">十宗罪 全七册</div>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="baxin w">
+            <div class="box-hd">
+                <h3>八成及以下新旧书</h3>
+                <div class="tab-list">
+                    <ul>
+                        <li class="style_red">热门：</li>
+                        <li><a href="#">毛概</a>|</li>
+                        <li><a href="#">马原</a>|</li>
+                        <li><a href="#">思修</a>|</li>
+                        <li><a href="#">近代史</a>|</li>
+                        <li><a href="#">数学统计</a>|</li>
+                        <li><a href="#">工程数学</a>|</li>
+                        <li><a href="#">计算机网络</a>|</li>
+                        <li><a href="#">高数</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="box-bd">
+                <ul class="tab-con">
+                    <li class="w209 h400">
+                        <ul class="tab-con-list">
+                            <li>
+                                <a href="#">正版图书</a>
+                            </li>
+                            <li>
+                                <a href="#">无明显缺页</a>
+                            </li>
+                            <li>
+                                <a href="#">不影响阅读</a>
+                            </li>
+                            <li>
+                                <a href="#">无老化泛黄</a>
+                            </li>
+                            <li>
+                                <a href="#">笔记较多</a>
+                            </li>
+                            <li>
+                                <a href="#">无乱涂乱画</a>
+                            </li>
+                        </ul>
+                        <div div class="tab-con-bd">
+                            <a href="#">
+                                <div class="img"><img src="upload/old2.jpg" alt=""></div>
+                                <div class="text">
+                                    思想道德与法治 2021年版
+                                    <p>高等教育出版社 送电子答案</p>
+                                </div>                      
+                            </a>
+                        </div>
+                    </li>
+                    <li class="w450 h400">
+                        <div>
+                            <a href="#">
+                                <div class="pic"><img src="upload/old-2-1.jpg" alt=""></div>
+                                <p class="text">考研英语真题 2016-2021</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <div class="pic"><img src="upload/old-2-2.jpg" alt=""></div>
+                                <p class="text">吉他教程</p>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="w500 h400">
+                        <a href="#">
+                            <div class="wfloat .pic"><img src="upload/old-2-3.jpg" alt=""></div>
+                        </a>
+                        <a href="#">
+                            <div class="wfloat"><img src="upload/old-2-4.jpg" alt=""></div>
+                        </a>
+                        <a href="#">
+                            <div class="wfloat"><img src="upload/old-2-5.jpg" alt=""></div>
+                        </a>
+                        <a href="#">
+                            <div class="wfloat"><img src="upload/old-2-6.jpg" alt=""></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 楼层区 end -->
+    <!-- 固定电梯导航 -->
+    <div class="fixedtool">
+        <ul>
+            <li class="login">
+                <a href="#">
+                    <img id="login" src="images/fixed1.jpg" alt="">
+                    <div>注册登录</div>
+                </a>
+            </li>
+            <li class="enter">
+                <a href="#">
+                    <img id="enter" src="images/fixed2.jpg" alt="">
+                    <div>入驻发布</div>
+                </a>
+            </li>
+            <li class="me">                
+                <a href="#">
+                    <img id="me" src="images/fixed3.jpg" alt="">
+                    <div>我要招商</div>
+                </a>
+            </li>
+            <li class="collect">
+                <a href="#">
+                    <img id="collect" src="images/fixed4.jpg" alt="">
+                    <div>收藏页面</div>
+                </a>  
+            </li>
+            <li class="share">
+                <a href="#">
+                    <img id="share" src="images/fixed5.jpg" alt="">
+                    <div>分享页面</div>
+                </a>
+            </li>
+            <li class="app">
+                <a href="#">
+                    <img id="app" src="images/fixed6.jpg" alt="">
+                    <div>APP下载</div>
+                </a>
+            </li>
+            <li class="wechat">
+                <a href="#">
+                    <img id="wechat" src="images/fixed7.jpg" alt="">
+                    <div>微信客服</div>
+                </a>
+            </li>
+            <li class="top">
+                <a href="#">
+                    <img id="top" src="images/fixed8.jpg" alt="">
+                    <div>回到顶部</div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- footer 底部模块制作 start -->
+    <footer class="footer">
+        <div class="w">
+            <!-- mod_service服务模块-->
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <i class="mod-service-icon mod_service_zheng"></i>
+                        <div class="mod_service_txt">
+                            <h5>正品保障</h5>
+                            <p>正品保障，支持验货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_kuai"></i>
+                        <div class="mod_service_txt">
+                            <h5>极速物流</h5>
+                            <p>极速物流，极速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>无忧售后</h5>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>特色服务</h5>
+                            <p>线下交易，送到大院</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>帮助中心</h5>
+                            <p>客服24小时在线</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mod_help帮助模块 -->
+            <div class="mod_help">
+                <dl class="mod_help_item">
+                    <dt>淘书网吧</dt>
+                    <dd> <a href="#">淘书必读 </a></dd>
+                    <dd> <a href="#">出价前必读 </a></dd>
+                    <dd> <a href="#">隐私声明 </a></dd>
+                    <dd> <a href="#">关于我们 </a></dd>
+                    <dd> <a href="#">加入我们 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>购书指南</dt>
+                    <dd> <a href="#">购书流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">新人导读</a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>支付/配送</dt>
+                    <dd> <a href="#">会员说明 </a></dd>
+                    <dd> <a href="#">费用介绍 </a></dd>
+                    <dd> <a href="#">订单查询 </a></dd>
+                    <dd> <a href="#">物流信息 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>售后问题</dt>
+                    <dd> <a href="#">问题书籍 </a></dd>
+                    <dd> <a href="#">禁止明细 </a></dd>
+                    <dd> <a href="#">退货处理 </a></dd>
+                    <dd> <a href="#">退款处理 </a></dd>
+                    <dd> <a href="#">取消交易 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>友情链接</dt>
+                    <dd> <a href="#">关注微信 </a></dd>
+                    <dd> <a href="#">关注微博 </a></dd>
+                    <dd> <a href="#">网站地图 </a></dd>
+                    <dd> <a href="#">海淘咨询 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="images/wx_cz.jpg" alt="">
+                        <p>淘书网客户端</p>
+                    </dd>
+                </dl>
+            </div>
+
+            <!-- mod_copyright版权信息模块  -->
+            <div class="mod_copyright">
+                <div class="mod_copyright_links">
+                    <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">淘书网社</a> | <a href="#">淘书网公益</a> | <a href="#">English Site</a> | <a href="#">Contact U</a>
+                </div>
+                <p class="mod_copyright_info">
+                    地址：广东省湛江市麻章区湖光镇海大路1号 邮编：524088 电话：0759-2383110 传真：010-82935110 邮箱: 1813082543@qq.com <br> 粤ICP备06058882号 粤公网安备44081102000020号
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer底部模块制作 end -->
+</body>
+
+</html>

@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>列表页-综合网购首选-正版图书、品质保障、线下交易、支持验货！
+    </title>
+    <!-- 网站说明 -->
+    <meta name="description"
+        content="淘书网-为海洋大学校内二手书线上线下交易平台，汇集了包括教科书、辅助书、课外书等多种类别的二手书籍" />
+    <!-- 关键字 -->
+    <meta name="keywords" content="图书、书籍、旧书、二手书、买购网、二手书交易、线下交易" />
+    <!-- 引入favicon图标 -->
+    <link rel="shortcut icon" href="favicon1.ico" />
+    <!-- 引入我们初始化样式文件 -->
+    <link rel="stylesheet" href="css/base.css">
+    <!-- 引入我们公共的样式文件 -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- 引入我们列表页的css文件 -->
+    <link rel="stylesheet" href="css/list.css">
+</head>
+
+<body>
+    <!-- 顶部快捷导航模块 start -->
+    <section class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li>主校区<i class="icomoon"></i> &nbsp;</li>
+                    <li>
+                        <a href="#">请登录</a> &nbsp;
+                        <a href="register.html" class="style_blue">免费注册</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="fr">
+                <ul>
+                    <li><a href="#">我的订单</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">我的淘书网<i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li><a href="#">淘书网会员</a></li>
+                    <li class="spacer"></li>
+                    <li><a href="#">团体购买</a></li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">关注淘书网 <i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">客户服务 <i class="icomoon"></i></a>
+                    </li>
+                    <li class="spacer"></li>
+                    <li>
+                        <a href="#">网站导航 <i class="icomoon"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- 快捷导航模块 end -->
+    <!-- header头部模块制作 start -->
+    <header class="header w">
+        <!-- logo模块 -->
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="淘书网">淘书网</a>
+            </h1>
+        </div>
+        <!-- search搜索模块 start-->
+        <div class="search">
+            <input type="search" name="" id="text" placeholder="考研数学">
+            <button @click="btn">搜索</button>
+        </div>
+        <!-- hotwords模块制作 -->
+        <div class="hotwords">
+            <i class="style_red">热搜：</i>
+            <a href="#">考研历年真题</a>
+            <a href="#">考研数学</a>
+            <a href="#">考研资料</a>
+            <a href="#">考研政治教材</a>
+            <a href="#">考研真题</a>
+            <a href="#">通信</a>
+        </div>
+        <!-- 购物车模块 -->
+        <a href="#" class="shopcar">
+            我的购物车
+            <i class="count">8</i>
+        </a>
+    </header>
+    <!-- header头部模块制作 end -->
+    <!-- nav模块制作 start -->
+    <nav class="nav">
+        <ul class="sk_con w">
+            <li class="style_blue">类别：</li>
+            <li><a href="#">考研</a></li>
+            <li><a href="#">考公</a></li>
+            <li><a href="#">教资</a></li>
+            <li><a href="#">真题</a></li>
+            <li><a href="#">编制</a></li>
+            <li><a href="#">笔试</a></li>
+            <li><a href="#">面试</a></li>
+            <li><a href="#">更多分类</a></li>
+        </ul>
+    </nav>
+    <!-- nav模块制作 end -->
+    <!-- 列表页主体模块制作 start -->
+    <div class="w sk_container">
+        <div class="sk_hd">
+        </div>
+        <div class="sk_bd">
+            <ul class="content w">
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-1.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">考研英语 长难句解密 中国原子能出版社</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥32.0</span>
+                            <span class="newp">￥16.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售80%</span>
+                            <span><i></i></span>
+                            <span>剩余<i>29</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-2.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2023年 考研政治 核心考案 中国政法大学出版社</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥15.00</span>
+                            <span class="newp">￥3.50</span>
+                        </li>
+                        <li class="number">
+                            <span>已售30%</span>
+                            <span><i style="width: 30px;"></i></span>
+                            <span>剩余<i>7</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-3.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2023年 考研数学 复习全书 基础篇(背诵版)</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥18.00</span>
+                            <span class="newp">￥9.90</span>
+                        </li>
+                        <li class="number">
+                            <span>已售50%</span>
+                            <span><i style="width: 50px;"></i></span>
+                            <span>剩余<i>20</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-4.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2022年 国家公务员 行政职业能力检测</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥45.80</span>
+                            <span class="newp">￥16.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售80%</span>
+                            <span><i></i></span>
+                            <span>剩余<i>6</i>件</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-5.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2022年 肖秀荣考研政治 1000题(上册)</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥16.80</span>
+                            <span class="newp">￥8.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售70%</span>
+                            <span><i style="width: 70px;"></i></span>
+                            <span>剩余<i>13</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-6.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2021年 国家公务员 申论</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥36.90</span>
+                            <span class="newp">￥11.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售20%</span>
+                            <span><i style="width: 20px;"></i></span>
+                            <span>剩余<i>11</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-7.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">(2017-2021)考历年考研英语真题解析及复习思路</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥17.00</span>
+                            <span class="newp">￥5.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售90%</span>
+                            <span><i style="width: 90px;"></i></span>
+                            <span>剩余<i>2</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-8.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2023年 考研数学 复习全书 基础篇</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥27.80</span>
+                            <span class="newp">￥11.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售60%</span>
+                            <span><i style="width: 60px;"></i></span>
+                            <span>剩余<i>35</i>本</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+                <li class="list">
+                    <div class="img"><a href="#"><img src="upload/list-9.jpg" alt=""></a></div>
+                    <ul class="text">
+                        <li class="title">
+                            <a href="#">2022年 公务员考试 行测的思维</a>
+                        </li>
+                        <li class="price">
+                            <span class="oldp">￥18.80</span>
+                            <span class="newp">￥10.80</span>
+                        </li>
+                        <li class="number">
+                            <span>已售10%</span>
+                            <span><i style="width: 10px;"></i></span>
+                            <span>剩余<i>18</i>件</span>
+                        </li>
+                        <li class="shop"><a href="#">发起拼团</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- footer 底部模块的制作 start -->
+    <footer class="footer">
+        <div class="w">
+            <div class="mod_service">
+                <ul>
+                    <li>
+                        <i class="mod-service-icon mod_service_zheng"></i>
+                        <div class="mod_service_txt">
+                            <h5>正品保障</h5>
+                            <p>正品保障，支持验货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_kuai"></i>
+                        <div class="mod_service_txt">
+                            <h5>极速物流</h5>
+                            <p>极速物流，极速送达</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>无忧售后</h5>
+                            <p>7天无理由退换货</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>特色服务</h5>
+                            <p>线下交易，送到大院</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="mod-service-icon mod_service_bao"></i>
+                        <div class="mod_service_txt">
+                            <h5>帮助中心</h5>
+                            <p>客服24小时在线</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- mod_help帮助模块 -->
+            <div class="mod_help">
+                <dl class="mod_help_item">
+                    <dt>淘书网吧</dt>
+                    <dd> <a href="#">淘书必读 </a></dd>
+                    <dd> <a href="#">出价前必读 </a></dd>
+                    <dd> <a href="#">隐私声明 </a></dd>
+                    <dd> <a href="#">关于我们 </a></dd>
+                    <dd> <a href="#">加入我们 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>购书指南</dt>
+                    <dd> <a href="#">购书流程 </a></dd>
+                    <dd> <a href="#">会员介绍 </a></dd>
+                    <dd> <a href="#">新人导读</a></dd>
+                    <dd> <a href="#">常见问题 </a></dd>
+                    <dd> <a href="#">联系客服 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>支付/配送</dt>
+                    <dd> <a href="#">会员说明 </a></dd>
+                    <dd> <a href="#">费用介绍 </a></dd>
+                    <dd> <a href="#">订单查询 </a></dd>
+                    <dd> <a href="#">物流信息 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>售后问题</dt>
+                    <dd> <a href="#">问题书籍 </a></dd>
+                    <dd> <a href="#">禁止明细 </a></dd>
+                    <dd> <a href="#">退货处理 </a></dd>
+                    <dd> <a href="#">退款处理 </a></dd>
+                    <dd> <a href="#">取消交易 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>友情链接</dt>
+                    <dd> <a href="#">关注微信 </a></dd>
+                    <dd> <a href="#">关注微博 </a></dd>
+                    <dd> <a href="#">网站地图 </a></dd>
+                    <dd> <a href="#">海淘咨询 </a></dd>
+                </dl>
+                <dl class="mod_help_item">
+                    <dt>帮助中心</dt>
+                    <dd>
+                        <img src="images/wx_cz.jpg" alt="">
+                        <p>淘书网客户端</p>
+                    </dd>
+                </dl>
+            </div>
+
+            <!-- mod_copyright 版权信息模块  -->
+            <div class="mod_copyright">
+                <div class="mod_copyright_links">
+                    <a href="#">关于我们</a> | <a href="#">联系我们</a> | <a href="#">联系客服</a> | <a href="#">商家入驻</a> | <a href="#">营销中心</a> | <a href="#">友情链接</a> | <a href="#">销售联盟</a> | <a href="#">淘书网社</a> | <a href="#">淘书网公益</a> | <a href="#">English Site</a> | <a href="#">Contact U</a>
+                </div>
+                <p class="mod_copyright_info">
+                    地址：广东省湛江市麻章区湖光镇海大路1号 邮编：524088 电话：0759-2383110 传真：010-82935110 邮箱: 1813082543@qq.com <br> 粤ICP备06058882号 粤公网安备44081102000020号
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部模块的制作 end -->
+    <script>
+        var text = document.getElementById('text')
+        text.onfocus = function () {
+        if (text.placeholder === '考研数学') {
+            text.placeholder = ''
+        }
+        this.style.color = '#333'
+        }
+        
+        text.onblur = function() {
+            if(text.placeholder === '') {
+                text.placeholder = '考研数学'
+            }
+            this.style.color = '#999'
+        }
+    </script>
+</body>
+
+</html>
